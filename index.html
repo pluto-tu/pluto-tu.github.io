@@ -50,7 +50,7 @@
         
           <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Suche"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -85,17 +85,17 @@
       
         <hr>
 <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="pluto-blog"><a href="#pluto-blog" class="headerlink" title="pluto blog"></a>pluto blog</h2><h4 id="hexo基本命令"><a href="#hexo基本命令" class="headerlink" title="hexo基本命令"></a>hexo基本命令</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">-- Create a new post</span><br><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br><span class="line"></span><br><span class="line">-- Run server</span><br><span class="line">$ hexo server</span><br><span class="line"></span><br><span class="line">-- Generate static files</span><br><span class="line">$ hexo generate</span><br><span class="line"></span><br><span class="line">-- Deploy to remote sites</span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<h2 id="pluto-blog"><a href="#pluto-blog" class="headerlink" title="pluto blog"></a>pluto blog</h2><h4 id="hexo基本命令"><a href="#hexo基本命令" class="headerlink" title="* hexo基本命令"></a>* hexo基本命令</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">-- Create a new post</span><br><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br><span class="line"></span><br><span class="line">-- Run server</span><br><span class="line">$ hexo server</span><br><span class="line"></span><br><span class="line">-- Generate static files</span><br><span class="line">$ hexo generate</span><br><span class="line"></span><br><span class="line">-- Deploy to remote sites</span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-<h4 id="mysql支持表情"><a href="#mysql支持表情" class="headerlink" title="mysql支持表情"></a>mysql支持表情</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">修改MySQL配置</span><br><span class="line"></span><br><span class="line">1.在mysql的安装目录下找到my.ini,作如下修改：</span><br><span class="line">[mysqld]</span><br><span class="line">character-set-server=utf8mb4</span><br><span class="line">[mysql]</span><br><span class="line">default-character-set=utf8mb4</span><br><span class="line"></span><br><span class="line">2 重启</span><br><span class="line"></span><br><span class="line">net stop mysql</span><br><span class="line">net start mysql</span><br><span class="line"></span><br><span class="line">3 修改表</span><br><span class="line"></span><br><span class="line"> ALTER TABLE 表名 CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_bin;</span><br></pre></td></tr></table></figure>
+<h4 id="mysql支持表情"><a href="#mysql支持表情" class="headerlink" title="* mysql支持表情"></a>* mysql支持表情</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">修改MySQL配置</span><br><span class="line"></span><br><span class="line">1.在mysql的安装目录下找到my.ini,作如下修改：</span><br><span class="line">[mysqld]</span><br><span class="line">character-set-server=utf8mb4</span><br><span class="line">[mysql]</span><br><span class="line">default-character-set=utf8mb4</span><br><span class="line"></span><br><span class="line">2 重启</span><br><span class="line"></span><br><span class="line">net stop mysql</span><br><span class="line">net start mysql</span><br><span class="line"></span><br><span class="line">3 修改表</span><br><span class="line"></span><br><span class="line"> ALTER TABLE 表名 CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_bin;</span><br></pre></td></tr></table></figure>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/02/08/hello-world/" data-id="cjdfma6yl0000k23s0l2ni9su" class="article-share-link">Teilen</a>
+      <a data-url="http://yoursite.com/2018/02/08/hello-world/" data-id="cje0rzte50000u43st0akyhq6" class="article-share-link">Share</a>
       
       
     </footer>
@@ -121,7 +121,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archiv</h3>
+    <h3 class="widget-title">Archives</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a></li></ul>
     </div>
@@ -131,7 +131,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">letzter Beitrag</h3>
+    <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
         
