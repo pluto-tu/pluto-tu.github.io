@@ -48,9 +48,9 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Buscar"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -63,8 +63,8 @@
   
     <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2018/02/08/hello-world/" class="article-date">
-  <time datetime="2018-02-08T00:08:08.000Z" itemprop="datePublished">2018-02-08</time>
+    <a href="/2018/04/23/hello-world/" class="article-date">
+  <time datetime="2018-04-23T00:08:08.000Z" itemprop="datePublished">2018-04-23</time>
 </a>
     
   </div>
@@ -75,7 +75,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2018/02/08/hello-world/">pluto的博客</a>
+      <a class="article-title" href="/2018/04/23/hello-world/">pluto的博客</a>
     </h1>
   
 
@@ -85,17 +85,18 @@
       
         <hr>
 <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="pluto-blog"><a href="#pluto-blog" class="headerlink" title="pluto blog"></a>pluto blog</h2><h4 id="hexo基本命令"><a href="#hexo基本命令" class="headerlink" title="* hexo基本命令"></a>* hexo基本命令</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">-- Create a new post</span><br><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br><span class="line"></span><br><span class="line">-- Run server</span><br><span class="line">$ hexo server</span><br><span class="line"></span><br><span class="line">-- Generate static files</span><br><span class="line">$ hexo generate</span><br><span class="line"></span><br><span class="line">-- Deploy to remote sites</span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<h2 id="pluto-blog"><a href="#pluto-blog" class="headerlink" title="pluto blog"></a>pluto blog</h2><h4 id="hexo基本命令"><a href="#hexo基本命令" class="headerlink" title="* hexo基本命令"></a>* hexo基本命令</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">-- Create a new post</span><br><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br><span class="line"></span><br><span class="line">-- Run server 启动本地服务器</span><br><span class="line">$ hexo server</span><br><span class="line"></span><br><span class="line">-- Generate static files</span><br><span class="line">$ hexo generate</span><br><span class="line"></span><br><span class="line">-- Deploy to remote sites</span><br><span class="line">$ hexo deploy</span><br><span class="line"></span><br><span class="line">每次部署的步骤，可按以下三步来进行。</span><br><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br><span class="line"></span><br><span class="line">一些常用命令：</span><br><span class="line">hexo new <span class="string">"postName"</span> <span class="comment">#新建文章</span></span><br><span class="line">hexo new page <span class="string">"pageName"</span> <span class="comment">#新建页面</span></span><br><span class="line">hexo generate <span class="comment">#生成静态页面至public目录</span></span><br><span class="line">hexo server <span class="comment">#开启预览访问端口（默认端口4000，'ctrl + c'关闭server）</span></span><br><span class="line">hexo deploy <span class="comment">#将.deploy目录部署到GitHub</span></span><br><span class="line">hexo <span class="built_in">help</span>  <span class="comment">#查看帮助</span></span><br><span class="line">hexo version  <span class="comment">#查看Hexo的版本</span></span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 <h4 id="mysql支持表情"><a href="#mysql支持表情" class="headerlink" title="* mysql支持表情"></a>* mysql支持表情</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">修改MySQL配置</span><br><span class="line"></span><br><span class="line">1.在mysql的安装目录下找到my.ini,作如下修改：</span><br><span class="line">[mysqld]</span><br><span class="line">character-set-server=utf8mb4</span><br><span class="line">[mysql]</span><br><span class="line">default-character-set=utf8mb4</span><br><span class="line"></span><br><span class="line">2 重启</span><br><span class="line"></span><br><span class="line">net stop mysql</span><br><span class="line">net start mysql</span><br><span class="line"></span><br><span class="line">3 修改表</span><br><span class="line"></span><br><span class="line"> ALTER TABLE 表名 CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_bin;</span><br></pre></td></tr></table></figure>
+<h4 id="git-gitignore不起作用"><a href="#git-gitignore不起作用" class="headerlink" title="* git .gitignore不起作用"></a>* git .gitignore不起作用</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">原因：</span><br><span class="line">在想要忽略内容的目录下创建.gitgnore，编辑.gitignore文件，用git status查看状态，想要忽略的文件还是显示被追踪状态。原因是git忽略目录中，新建的文件在git中会有缓存，如果某些文件已经被提交到版本管理中，就算是在.gitignore中声明了忽略文件也是不起作用的，这时候我们就应该先把本地缓存删除，然后再进行git add，这样就不会追踪忽略的文件了。</span><br><span class="line"></span><br><span class="line">git清除本地缓存命令如下：</span><br><span class="line">git rm -r --cached .</span><br><span class="line">git add .</span><br><span class="line">git commit -m &apos;update .gitignore&apos;</span><br><span class="line"></span><br><span class="line">注意：</span><br><span class="line">想要.gitignore起作用，必须要在这些文件不在暂存区中才可以，.gitignore文件只是忽略没有被staged(cached)文件，对于已经被staged文件，加入ignore文件时一定要先从staged移除，才可以忽略。</span><br></pre></td></tr></table></figure>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/02/08/hello-world/" data-id="cje0rzte50000u43st0akyhq6" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/04/23/hello-world/" data-id="cjgbues4k0000pb3sp9ifcpf1" class="article-share-link">Compartir</a>
       
       
     </footer>
@@ -121,9 +122,9 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
+    <h3 class="widget-title">Archivos</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a></li></ul>
     </div>
   </div>
 
@@ -131,12 +132,12 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">Posts recientes</h3>
     <div class="widget">
       <ul>
         
           <li>
-            <a href="/2018/02/08/hello-world/">pluto的博客</a>
+            <a href="/2018/04/23/hello-world/">pluto的博客</a>
           </li>
         
       </ul>
@@ -152,7 +153,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       &copy; 2018 tubangwu<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      Construido por <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>
